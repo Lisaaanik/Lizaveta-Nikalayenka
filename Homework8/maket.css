@@ -1,0 +1,98 @@
+.block {
+    text-align: center;
+    position: fixed;
+    border: solid green 1px;
+    background-color: lightgreen;
+    padding: 15px;
+    right: 25px;
+    top: 25px;
+    width: 90px;
+}
+
+/* ............1........... */
+@media all and (max-width: 3000px){  
+    .main {
+        width: 1980px;
+        margin: 0 auto;
+        padding-top: 1px;
+    }
+
+    .menu {
+        width: 200px; 
+        float: left;
+    }
+
+    .football {
+        margin-left: 200px; 
+        padding-left: 2%; 
+    }
+
+    .football p {
+        padding: 0px 10px 10px 0px;
+    }
+
+    .pobeda {
+        width: 250px;
+        float: left; 
+        margin: 0px 20px 0px 0px;
+    }
+}
+/* ............2........... */
+
+@media all and (max-width: 2000px){  
+    .main {
+        width: 100%;
+        margin: 0 auto;
+        padding-top: 1px;
+    }
+
+    .menu {
+        width: 200px; 
+        float: left;
+    }
+
+    .football {
+        margin-left: 200px; 
+        padding-left: 2%; 
+    }
+
+    .football p {
+        padding: 0px 10px 10px 0px;
+    }
+
+    .pobeda {
+        width: 250px;
+        float: left; 
+        margin: 0px 20px 0px 0px;
+    }
+}
+
+/* ............3........... */
+
+@media all and (max-width: 750px){
+    .menu {
+        width: 100%;
+        margin: 0 auto;
+        padding-top: 1px;
+    }
+
+    .menu {
+        float: none;
+        width: 100%;
+    } 
+
+    .football {
+        margin-left: 0px;
+    }
+
+    .football p {
+        padding: 5px;
+    }
+
+    .pobeda {
+        width: 80%;
+        padding: 0px 50px;
+    }
+}
+    
+    
