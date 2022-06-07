@@ -1,0 +1,39 @@
+.content {
+    position: relative;
+    margin: 0 auto;
+    width: 400px;
+    height: 400px;
+}
+
+img {
+    position: absolute;
+    z-index: 1;
+    left: 50%;
+    right: 50%;
+}
+
+img:hover {
+    z-index: 99;
+    cursor: pointer;
+}
+
+.img1 {
+    top: 5px;
+    left: 0px;
+}
+
+.img2 {
+    top: 75px;
+    left: 80px;
+    z-index: 9;
+}
+
+.img3 {
+    bottom: 0px;
+    left: 115px;
+}
+
+.img4 {
+    top: 0px;
+    right: 0px;
+}

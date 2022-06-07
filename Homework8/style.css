@@ -1,0 +1,53 @@
+.title {
+    margin-bottom: 10px;
+    content: " ";
+    display: block;
+    clear: both;
+}
+
+.titleName {
+    width: 172px;
+    float: left;
+}
+
+.button {
+    overflow: hidden;
+    padding: 0 10px;
+}
+
+.button input {
+    width: 100%;
+}
+
+.publication {
+    display: inline;
+}
+
+textarea {
+    width: 100%;
+}
+
+.button2 {
+    padding: 0px 0px 0px 180px;
+}
+
+
+@media screen and (min-width: 320px) and (max-width: 600px) {
+    .titleName {
+        float: none;
+    }
+    .button {
+        overflow: hidden;
+        padding: 0 10px 0 0;
+    }
+
+    .publication {
+        display: block;
+    }
+
+    .button2 {
+        padding: 0px;
+    }
+}
+
+
